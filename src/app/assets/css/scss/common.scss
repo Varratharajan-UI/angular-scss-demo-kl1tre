@@ -1,0 +1,17 @@
+@import './mixins.scss';
+@import './color-variables.scss';
+
+@font-face {
+  font-family: NunitoSans;
+  src: url('../../fonts/NunitoSans-Regular.ttf');
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.spriteimage {
+  @include spriteimage;
+}
+.redlabel {
+  color: $redlabel !important;
+}
